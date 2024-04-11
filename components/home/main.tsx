@@ -11,14 +11,14 @@ const Main = () => {
           className="absolute h-full w-full"
         />
         <div className="relative w-[70%]">
-          <div className="flex flex-col mt-52">
-            <div className="text-neutral-50 text-left text-6xl md:text-[128px] font-bold font-['Inter'] md:leading-[70px]">
+          <div className="flex flex-col mt-52 gap-2">
+            <div className="text-neutral-50 text-left text-6xl md:text-[128px] font-bold font-['Iowan Old Style'] md:leading-[70px]">
               Immersive
             </div>
-            <div className="text-left text-neutral-50 text-7xl md:text-[175px] font-bold font-['Inter'] md:leading-[150px]">
+            <div className="text-left text-neutral-50 text-7xl md:text-[175px] font-bold font-['Iowan Old Style'] md:leading-[150px]">
               Media
             </div>
-            <div className="text-left text-neutral-50 text-6xl md:text-[128px] font-bold font-['Inter'] md:leading-[100px]">
+            <div className="text-left text-neutral-50 text-6xl md:text-[128px] font-bold font-['Iowan Old Style'] md:leading-[100px]">
               Studio
             </div>
           </div>

@@ -37,7 +37,7 @@ const Companies = () => {
   return (
     <div className="relative h-full w-full">
       <Image src={Background} alt="" className="absolute w-full h-full" />
-      <div className="relative">
+      <div className="flex flex-col items-center relative">
         <div className="flex flex-col items-center ">
           <div className="w-[80%] md:w-[60%] lg:w-[50%] mt-14 text-center text-neutral-50 text-3xl lg:text-4xl font-bold font-['Inter'] leading-[46.80px]">
             Companies face challenges creating Immersive Experiences
