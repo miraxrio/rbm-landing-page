@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header
       className={`fixed w-full top-0 z-50 transition duration-300 ease-in-out ${
-        scrolled ? "bg-[#0d0e2e] backdrop-blur-[90px]" : "bg-transparent"
+        scrolled ? "bg-[#0b0b0b] backdrop-blur-[90px]" : "bg-transparent"
       }`}
     >
       <MainMenu scrolled={scrolled} setMobileMenuOpen={setMobileMenuOpen} />

@@ -1,13 +1,16 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Main from "@/components/home/main";
-import Companies from "@/components/home/companies";
-import Offer from "@/components/home/offer";
-import UsesCases from "@/components/home/usesCases";
-import Services from "@/components/home/services";
-import Aplications from "@/components/home/applications";
-import ClientsContent from "@/components/home/clients-content";
+import SeeingData from "@/components/home/seeingData";
+import FromIntelligence from "@/components/home/fromIntelligence";
+import ImPreMatrix from "@/components/home/imPreMatrix";
+import RealWorldImpact from "@/components/home/realWorldImpact";
+import HowItWorks from "@/components/home/howItWorks";
+import ImmersiveSolutions from "@/components/home/immersiveSolutions";
+import ClientsSaying from "@/components/home/clientsSaying";
+import BuildWithUs from "@/components/home/buildWithUs";
+import WhoWeAre from "@/components/home/whoWeAre";
+import ConversationBring from "@/components/home/conversationBring";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,12 +34,16 @@ export default function Home() {
       </Head>
       <div className="bg-black">
         <Main />
-        <Companies />
-        <Offer />
-        <UsesCases />
-        <Services />
-        <Aplications />
-        <ClientsContent />
+        <SeeingData />
+        <FromIntelligence />
+        <ImPreMatrix />
+        <RealWorldImpact />
+        <HowItWorks />
+        <ImmersiveSolutions />
+        <ClientsSaying />
+        <BuildWithUs />
+        <WhoWeAre />
+        <ConversationBring />
       </div>
     </>
   );

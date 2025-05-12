@@ -58,7 +58,7 @@ export default function MainMenu({
           </Link>         
         </Popover.Group>
         <div className="flex flex-1 justify-end items-center gap-3">          
-          <CalendlyDialog  text="Book a demo" classNameButton="hidden sm:block text-black text-sm font-medium font-poppins leading-[16.80px] tracking-wider h-[2.25rem] w-max bg-white px-[0.73rem] rounded-full" />
+          <CalendlyDialog  text="Explore Solutions" classNameButton="hidden sm:block text-white text-md font-medium w-[120px] h-14 p-1 border-2 border-solid border-white   rounded-full" />
           <div className="flex lg:hidden">
             <button
               type="button"
